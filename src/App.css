@@ -1,0 +1,22 @@
+body{
+  --slack-color:#611f69;
+  overflow: hidden;
+}
+
+.app__body{
+  display: flex;
+  height: 94vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
